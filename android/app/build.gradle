@@ -26,15 +26,15 @@ if (flutterVersionCode == null) {
     flutterVersionCode = '105'
 }
 
-def flutterVersionName = '3.0.25'
+def flutterVersionName = '3.0.26'
 if (flutterVersionName == null) {
-    flutterVersionName = '3.0.25'
+    flutterVersionName = '3.0.26'
 }
 
 android {
     namespace = "com.example.tkd_connect"
     compileSdk = 36
-    ndkVersion = "29.0.14206865"
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
